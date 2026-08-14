@@ -1,0 +1,4 @@
+Translate the following sentence from the Chittagonian (Chatgaiya) dialect of southeastern Bangladesh into Standard Bangla. Reply with only the translated sentence in Standard Bangla, and nothing else.
+
+Chittagonian: {text}
+Standard Bangla:

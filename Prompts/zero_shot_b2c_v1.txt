@@ -1,0 +1,4 @@
+Translate the following sentence from Standard Bangla into the Chittagonian (Chatgaiya) dialect spoken in southeastern Bangladesh. Chatgaiya is a distinct regional dialect, not Standard Bangla. Reply with only the translated sentence in Chatgaiya, and nothing else.
+
+Standard Bangla: {text}
+Chittagonian:

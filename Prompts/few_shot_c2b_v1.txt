@@ -1,0 +1,16 @@
+Translate Chittagonian (Chatgaiya) dialect sentences from southeastern Bangladesh into Standard Bangla. Follow the pattern shown in these examples, then translate the final sentence. Reply with only the translated sentence, nothing else.
+
+Chittagonian: ভারত আই গেয়্যি
+Standard Bangla: ভারত এসে গেছি
+
+Chittagonian: টাইনতে টাইনতে নিজে পইরত থাহে
+Standard Bangla: টানতে টানতে নিজে পুকুরে থাকে
+
+Chittagonian: নানি কইয়্যরে গাছেত বরই ন ফাড়োস
+Standard Bangla: নানি বলে গাছে বরই পারিস না
+
+Chittagonian: তোঁয়ার কলেজ কয়ডা তুন কয়ডা পইযুন্ত
+Standard Bangla: তোমার কলেজ কয়টা থেকে কয়টা পর্যন্ত
+
+Chittagonian: {text}
+Standard Bangla:
