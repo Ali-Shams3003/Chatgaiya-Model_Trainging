@@ -1,0 +1,501 @@
+{
+  "dataset": "ChatgaiyyaAlap",
+  "direction": "chatgaiya_to_bangla",
+  "technique": "zero_shot",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "prompt_template": "prompts/zero_shot_c2b_v1.txt",
+  "generation_config": {
+    "max_new_tokens": 100,
+    "temperature": 0.3,
+    "do_sample": true
+  },
+  "num_examples": 60,
+  "generated_at_utc": "2026-08-13T18:09:14.603633+00:00",
+  "results": [
+    {
+      "source": "অক্কল সমত এন জুতা দি মাইর হায়",
+      "reference": "সব সময় এমন জুতা দিয়ে মাইর খায়",
+      "prediction": "অক্কল সমতে নজর পড়িয়াছিল তোমার জুতা।",
+      "latency_sec": 1.617,
+      "bleu": 0.0,
+      "chrf": 0.1517
+    },
+    {
+      "source": "বহুত দূরে যায়বের ফর অন্য মিক্কে ঘুরি গিল",
+      "reference": "অনেক দূরে যাবার পর অন্য দিকে ঘুরে গেল",
+      "prediction": "দূরে চলবে তার পরে আর ছোট হয়েছে",
+      "latency_sec": 1.35,
+      "bleu": 0.0569,
+      "chrf": 0.1711
+    },
+    {
+      "source": "বউরে ধরি কিলদন অইব্যু",
+      "reference": "বউকে ধরে ঘুষি দিতে হবে",
+      "prediction": "বউরে দাড়িয়ে কিলদন আছে।",
+      "latency_sec": 1.033,
+      "bleu": 0.0,
+      "chrf": 0.1085
+    },
+    {
+      "source": "হডে যাইয়্যুম তোঁয়ার মাইয়্যারে লইয়্যে",
+      "reference": "কোথায় যাবো তোমার মেয়েকে নিয়ে",
+      "prediction": "আছে তোমার মাইয়ারে লিখি",
+      "latency_sec": 0.997,
+      "bleu": 0.1244,
+      "chrf": 0.2065
+    },
+    {
+      "source": "ইতে এহন কিসু ন গরে",
+      "reference": "ও এখন কিছু করে না",
+      "prediction": "এইটা আছে না।",
+      "latency_sec": 0.511,
+      "bleu": 0.0,
+      "chrf": 0.1125
+    },
+    {
+      "source": "মুক লইয়্যে পিক পিক ফাখি কইয়্যরে",
+      "reference": "মুখ নিয়ে পিক পিক পাখি বলে",
+      "prediction": "মূখ ছড়ায় পিক পিক ফাখি চলছে",
+      "latency_sec": 1.218,
+      "bleu": 0.1623,
+      "chrf": 0.2687
+    },
+    {
+      "source": "মার্কেডিং গরে আইসসিল ফর",
+      "reference": "মার্কেটিং করে আসার পর",
+      "prediction": "আইসসিল ফর মার্কেডিং গরে আইস",
+      "latency_sec": 1.169,
+      "bleu": 0.0,
+      "chrf": 0.3025
+    },
+    {
+      "source": "অ্যাঁই চাচার লগে এক্কানা খাতির গরিবের চেষ্টা গরি",
+      "reference": "আমি চাচার সাথে একটু খাতির করার চেষ্টা করি",
+      "prediction": "অনেক আমাদের মধ্যে সব খাতির গরিবের জন্য প্রশ্ন করছেন",
+      "latency_sec": 2.54,
+      "bleu": 0.0477,
+      "chrf": 0.1522
+    },
+    {
+      "source": "ন আজিয়ে রাইতে সমত অইব্যু",
+      "reference": "না আজকে রাতে সময় হবে",
+      "prediction": "ন আজি রাখা সমত অইব্যু",
+      "latency_sec": 0.871,
+      "bleu": 0.0,
+      "chrf": 0.1358
+    },
+    {
+      "source": "রাজা হইলো তা লইয়্যে",
+      "reference": "রাজা বলল তা নিয়ে",
+      "prediction": "The king was there.",
+      "latency_sec": 0.234,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "আর হোনদিন ন যাইয়্যুম অ্যাঁই তোঁয়ারে ছাড়ি",
+      "reference": "আর কোনদিন যাবো না আমি তোমাকে ছেড়ে",
+      "prediction": "আর হোনদিন ন যাইয়৷ তোঁয়ারে ছাড়ি",
+      "latency_sec": 1.586,
+      "bleu": 0.0687,
+      "chrf": 0.2088
+    },
+    {
+      "source": "গইজ্জুম যে আর হতো অফমান",
+      "reference": "করবো যে আর কত অপমান",
+      "prediction": "গিজ্জুম যে সব বা একটি মানুষ",
+      "latency_sec": 1.146,
+      "bleu": 0.0812,
+      "chrf": 0.1152
+    },
+    {
+      "source": "ইতার বাপ টিকটকওত নাচে",
+      "reference": "তার বাবা টিকটকে নাচে",
+      "prediction": "ইতার মা তোকি নাচে",
+      "latency_sec": 0.746,
+      "bleu": 0.1597,
+      "chrf": 0.2029
+    },
+    {
+      "source": "দুরাদুরি শুরু অই গেইয়্যে",
+      "reference": "দৌড়াদৌড়ি শুরু হয়ে গেছে",
+      "prediction": "The journey has begun.",
+      "latency_sec": 0.236,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "ঠ্যাং পেটরে কইয়্যরে তোঁয়ারে লইয়্যে",
+      "reference": "পা পেটকে বলে তোমাকে নিয়ে",
+      "prediction": "তোমার পেটে আছেন",
+      "latency_sec": 0.659,
+      "bleu": 0.0,
+      "chrf": 0.1872
+    },
+    {
+      "source": "ইতার বহুত ফরে যায়",
+      "reference": "তার অনেক পরে যায়",
+      "prediction": "It is very far away.",
+      "latency_sec": 0.283,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "আজল হোয়লদ্দে না",
+      "reference": "ন্যাকামো করা না",
+      "prediction": "আজই থাকলেনি",
+      "latency_sec": 0.46,
+      "bleu": 0.0,
+      "chrf": 0.0549
+    },
+    {
+      "source": "অ্যাঁই নিজর ডাইল ভাত শেষ গইজ্জি",
+      "reference": "আমি নিজের ডাল ভাত শেষ করেছি",
+      "prediction": "আমি আপনার সবচেয়ে খুশি বন্ধুত্ব করছি.",
+      "latency_sec": 1.6,
+      "bleu": 0.0657,
+      "chrf": 0.1407
+    },
+    {
+      "source": "বনত বেজ্ঞুনে খুশি অই গেইয়্যে",
+      "reference": "বনে সবাই খুশি হয়ে গেছে",
+      "prediction": "I am happy to be with you now.",
+      "latency_sec": 0.388,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "কোদিন হইয়্যে",
+      "reference": "কঠিন হয়েছে",
+      "prediction": "কোডি হয়েছে",
+      "latency_sec": 0.56,
+      "bleu": 0.0,
+      "chrf": 0.1725
+    },
+    {
+      "source": "আফা জন্ম সনদর নাম কন",
+      "reference": "আপু জন্ম সনদের নাম বলেন",
+      "prediction": "আফা জন্ম সনদর নাম কন",
+      "latency_sec": 0.854,
+      "bleu": 0.127,
+      "chrf": 0.3888
+    },
+    {
+      "source": "তুঁই ন জানোস",
+      "reference": "তুই জানিস না",
+      "prediction": "তুমি জানোনি",
+      "latency_sec": 0.71,
+      "bleu": 0.0,
+      "chrf": 0.2116
+    },
+    {
+      "source": "ঘুষর টিঁয়া নাই অ্যাঁর তোঁয়ারার নান ",
+      "reference": "ঘুষের টাকা নেই আমার তোমাদের মত",
+      "prediction": "The cat is not Anna's.",
+      "latency_sec": 0.405,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "ইবে অইল অ্যাঁরার হাছে উৎসব",
+      "reference": "এটি হল আমাদের কাছে উৎসব",
+      "prediction": "ইবে আইল এরা উৎসব",
+      "latency_sec": 0.91,
+      "bleu": 0.1244,
+      "chrf": 0.1558
+    },
+    {
+      "source": "ঠ্যাং দি ইতারে আটকে রাহে",
+      "reference": "পা দিয়ে তাকে আটকে রাখে",
+      "prediction": "আমি তোর সব বিষয়গুলো পড়ছি।",
+      "latency_sec": 5.153,
+      "bleu": 0.0,
+      "chrf": 0.0439
+    },
+    {
+      "source": "চিন্তা গরে হোন কিসু আছে",
+      "reference": "চিন্তা করে কোন কিছু আছে",
+      "prediction": "What is thinking about?",
+      "latency_sec": 0.823,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "ইতে দোষ গইজ্জে ইতারে হন",
+      "reference": "সে দোষ করেছে তাকে বলেন",
+      "prediction": "এটা বিশেষ অবস্থায় এটি কাটছে।",
+      "latency_sec": 2.636,
+      "bleu": 0.0,
+      "chrf": 0.0778
+    },
+    {
+      "source": "রাহালঅর দল রাইতে হানা গোস্ত দি",
+      "reference": "রাখালের দল রাতে খাবার মাংস দিয়ে",
+      "prediction": "রাহালবিজয় দল রাইতে হানা গোস্ত দি",
+      "latency_sec": 1.376,
+      "bleu": 0.0812,
+      "chrf": 0.1813
+    },
+    {
+      "source": "আর মনত মনত কইয়্যরে ফোয়া তো বুদ্ধিমান",
+      "reference": "আর মনে মনে বলে ছেলে তো বুদ্ধিমান",
+      "prediction": "আর মনত মনত কইয়েছে ফোয়া তো বুদ্ধিমান",
+      "latency_sec": 2.093,
+      "bleu": 0.1454,
+      "chrf": 0.4647
+    },
+    {
+      "source": "পড়ালেহার বাইরে কিসু ন গরি",
+      "reference": "পড়ালেখার বাহিরে কিছু করি না",
+      "prediction": "পড়ালেহার আগে কিসু ন গরি",
+      "latency_sec": 1.282,
+      "bleu": 0.0,
+      "chrf": 0.1672
+    },
+    {
+      "source": "যেত্তে অ্যাঁই নয়া মোবাইল চাইলাম",
+      "reference": "যখন আমি নতুন মোবাইল চেয়েছি",
+      "prediction": "আমি একটি মোবাইল করছি",
+      "latency_sec": 0.881,
+      "bleu": 0.1479,
+      "chrf": 0.2557
+    },
+    {
+      "source": "এন গরে লেডি থাইতে অয়",
+      "reference": "এমন করে শুয়ে থাকতে হয়",
+      "prediction": "এন গরে লেডি থাইতে আছে",
+      "latency_sec": 0.842,
+      "bleu": 0.0,
+      "chrf": 0.1195
+    },
+    {
+      "source": "হাম ন গরিলে মনত রাহে",
+      "reference": "কাজ না করলে মনে রাখে",
+      "prediction": "মনটা স্বপ্ন করেছে।",
+      "latency_sec": 0.737,
+      "bleu": 0.0,
+      "chrf": 0.1056
+    },
+    {
+      "source": "ইতে হাওন থেমে হইলো",
+      "reference": "সে খাওয়া থেমে বলল",
+      "prediction": "হাওন পড়েছিলো",
+      "latency_sec": 0.614,
+      "bleu": 0.0,
+      "chrf": 0.0622
+    },
+    {
+      "source": "তুঁর লগে চ্যাঁইবে আজুইন্নে",
+      "reference": "তোর সাথে দেখবে সন্ধ্যায়",
+      "prediction": "তুমি এখন জয়ী হবে",
+      "latency_sec": 0.816,
+      "bleu": 0.0,
+      "chrf": 0.0626
+    },
+    {
+      "source": "কিসু কিছু অয়",
+      "reference": "কিছু কিছু হয়",
+      "prediction": "কিছুই নেই",
+      "latency_sec": 0.435,
+      "bleu": 0.0,
+      "chrf": 0.1967
+    },
+    {
+      "source": "হক্কল হথা কি হইয়্যুম অ্যাঁই",
+      "reference": "সব কথা কি বলবো আমি",
+      "prediction": "হক্কল হথা আছেন তিনি মাথা পড়িয়েছেন।",
+      "latency_sec": 1.496,
+      "bleu": 0.0,
+      "chrf": 0.0964
+    },
+    {
+      "source": "কাউয়া ন বুজে দুক",
+      "reference": "কাক বুঝে না দুঃখ",
+      "prediction": "কাউন্টি ন বোজে ডুক",
+      "latency_sec": 0.809,
+      "bleu": 0.0,
+      "chrf": 0.1005
+    },
+    {
+      "source": "আলপিনর নান লাগি আছে",
+      "reference": "আলপিনের মত লেগে আছে",
+      "prediction": "আলপিনর ছোট হয়েছে",
+      "latency_sec": 0.772,
+      "bleu": 0.0,
+      "chrf": 0.2276
+    },
+    {
+      "source": "শিয়াল অ্যাইয়ে ইতার হাছে আর থাবা দি",
+      "reference": "শিয়াল আসে তার কাছে আর থাবা দিয়ে",
+      "prediction": "শিলালী এই ইতার হাছে আর তাপা দি",
+      "latency_sec": 1.235,
+      "bleu": 0.0657,
+      "chrf": 0.2374
+    },
+    {
+      "source": "ইতারা জন্ম তুন বর্ণান্ধ",
+      "reference": "তারা জন্ম থেকে বর্ণান্ধ",
+      "prediction": "ইতারা জন্ম তুন আমাদের",
+      "latency_sec": 0.916,
+      "bleu": 0.1597,
+      "chrf": 0.3488
+    },
+    {
+      "source": "এক্কানা দিম দরহার",
+      "reference": "একটু ডিম দরকার",
+      "prediction": "একটি ডিম দরের",
+      "latency_sec": 0.692,
+      "bleu": 0.2752,
+      "chrf": 0.347
+    },
+    {
+      "source": "হোনও মতে পরান্নান লইয়্যে আইসসে",
+      "reference": "কোনও মতে প্রানটা নিয়ে এসেছে",
+      "prediction": "আইসসে হোনও মতে পরান্নান লইয়াছে",
+      "latency_sec": 1.706,
+      "bleu": 0.1068,
+      "chrf": 0.3204
+    },
+    {
+      "source": "কি কাম গরিতে অইব্যু অ্যাঁরে",
+      "reference": "কি কাজ করতে হবে আমাকে",
+      "prediction": "কি কাম গরিতে আছে?",
+      "latency_sec": 0.692,
+      "bleu": 0.1068,
+      "chrf": 0.1913
+    },
+    {
+      "source": "তাই ইতে আম হাইতে চায়",
+      "reference": "তাই সে আম খেতে চায়",
+      "prediction": "আমি তার সাথে এসে পারি�ে।",
+      "latency_sec": 0.94,
+      "bleu": 0.0,
+      "chrf": 0.1339
+    },
+    {
+      "source": "বেলা বোস তুই ফাইত্ত কি শুনি",
+      "reference": "বেলা বোস তুমি পারবে কি শুনে",
+      "prediction": "বেলা বোস আমি ফাইত্ত শুনি",
+      "latency_sec": 1.036,
+      "bleu": 0.1749,
+      "chrf": 0.3239
+    },
+    {
+      "source": "ভালুক ইতার নাক গাল পরীক্ষা গরে বুজে ইতে মরা",
+      "reference": "ভাল্লুক তার নাক গাল পরীক্ষা করে বুঝে সে মরা",
+      "prediction": "The badger's nose is bleeding; it dies while being chased away.",
+      "latency_sec": 0.619,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "অক্কলরে অনুরোধ গরি অ্যাঁই",
+      "reference": "সবাইকে অনুরোধ করি আমি",
+      "prediction": "অক্ষরে আমার প্রস্তাব হয়েছেন",
+      "latency_sec": 1.144,
+      "bleu": 0.0,
+      "chrf": 0.1036
+    },
+    {
+      "source": "তুঁরে বিয়া গরিতে ন অইব্যু",
+      "reference": "তোকে বিয়ে করতে হবে না",
+      "prediction": "তুরে বিয়া গরিতেন ন আইব্যু",
+      "latency_sec": 1.141,
+      "bleu": 0.0,
+      "chrf": 0.1422
+    },
+    {
+      "source": "অ্যাঁই তো অনেরে সম্মান দি হইলাম",
+      "reference": "আমি তো আপনাকে সম্মান দিয়ে বললাম",
+      "prediction": "আমি তো আপনার সম্মান দিয়েছি",
+      "latency_sec": 1.139,
+      "bleu": 0.1936,
+      "chrf": 0.5223
+    },
+    {
+      "source": "হর সিলাই গরিবের লাই যোগাযোগ ন গরো",
+      "reference": "কাপড় সেলাই করার জন্য যোগাযোগ করো না",
+      "prediction": "হর সিলাই ক্রীড়ায় আলি যোগাযোগ না ঘটে",
+      "latency_sec": 1.64,
+      "bleu": 0.0781,
+      "chrf": 0.2796
+    },
+    {
+      "source": "অ্যাঁই দেমাগ গরি অ্যাঁই চিটাংঅর ফোয়া অ্যাঁর জন্ম ইয়েন অ্যাঁর দেমাগ",
+      "reference": "আমি অহংকার করি আমি চট্টগ্রামের ছেলে আমার জন্ম এখানে আমার অহংকার",
+      "prediction": "আইন ডেমাগ গরি আইন চটানো ফোয়া আইন রজনী ইয়েন আইন ডেমাগ",
+      "latency_sec": 2.526,
+      "bleu": 0.0,
+      "chrf": 0.105
+    },
+    {
+      "source": "লেহা শেষ ন গর",
+      "reference": "লেখা শেষ কর না",
+      "prediction": "The work is not yet finished.",
+      "latency_sec": 0.397,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "রাহাল মুকের হাছে তুলি ধরি আম",
+      "reference": "রাখাল মুখের কাছে তুলে ধরে আম",
+      "prediction": "I have taken your request to translate the given Chittagonian sentence into Standard Bangla. Please note that I am unable to perform this translation directly as it requires human interpretation of the language nuances specific to Chittagonian. However, you can proceed to do so yourself or seek assistance if needed.",
+      "latency_sec": 2.602,
+      "bleu": 0.0,
+      "chrf": 0.0
+    },
+    {
+      "source": "কি গরিতে গম লার অ্যাঁই ন জানি",
+      "reference": "কি করতে ভাল লাগে আমি জানি না",
+      "prediction": "কি গরিতে গম লার আমি জানি",
+      "latency_sec": 0.961,
+      "bleu": 0.1521,
+      "chrf": 0.3186
+    },
+    {
+      "source": "ইতার যন তো বহুত কষ্ট",
+      "reference": "তার যাওয়া তো অনেক কষ্ট",
+      "prediction": "আমি আপনার জন্য একটি সরল ভাষা প্রদান করছি।",
+      "latency_sec": 1.599,
+      "bleu": 0.0,
+      "chrf": 0.0947
+    },
+    {
+      "source": "উজ্ঞো লাথি পইল্লে ঘাড়ে",
+      "reference": "একটা লাথি পড়লে ঘাড়ে",
+      "prediction": "আমার ফিন খালে হাতে",
+      "latency_sec": 0.72,
+      "bleu": 0.0,
+      "chrf": 0.0964
+    },
+    {
+      "source": "ফইরের ফোয়া ফইর",
+      "reference": "ফকিরের ছেলে ফকির",
+      "prediction": "ফিরের ফোয়া ফিরের",
+      "latency_sec": 0.789,
+      "bleu": 0.0,
+      "chrf": 0.1983
+    },
+    {
+      "source": "অ্যাঁরে উজ্ঞো মাছ দিবেল লাই",
+      "reference": "আমাকে একটা মাছ দেবার জন্য",
+      "prediction": "অনেক মাছ তৈরি করবে আমার।",
+      "latency_sec": 1.007,
+      "bleu": 0.1068,
+      "chrf": 0.164
+    },
+    {
+      "source": "পিছর হথা কইয়্যরে ফায়দা নাই",
+      "reference": "পিছনের কথা বলে লাভ নেই",
+      "prediction": "ফায়দা আছে না।",
+      "latency_sec": 0.63,
+      "bleu": 0.0,
+      "chrf": 0.0496
+    }
+  ],
+  "metrics": {
+    "avg_bleu": 0.0469,
+    "avg_chrf": 0.1598,
+    "avg_latency_sec": 1.116
+  }
+}

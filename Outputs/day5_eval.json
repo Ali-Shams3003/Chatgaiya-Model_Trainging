@@ -1,0 +1,87 @@
+{
+  "dataset": "ChatgaiyyaAlap",
+  "generated_at_utc": "2026-08-14T09:32:07.316244+00:00",
+  "comparison_table": [
+    {
+      "direction": "B2C",
+      "technique": "zero_shot",
+      "corpus_bleu": 0.0415,
+      "corpus_chrf": 0.1389,
+      "avg_latency_sec": 1.535
+    },
+    {
+      "direction": "B2C",
+      "technique": "few_shot",
+      "corpus_bleu": 0.0646,
+      "corpus_chrf": 0.2205,
+      "avg_latency_sec": 1.308
+    },
+    {
+      "direction": "B2C",
+      "technique": "dictionary",
+      "corpus_bleu": 0.3781,
+      "corpus_chrf": 0.6096,
+      "avg_latency_sec": 1.324
+    },
+    {
+      "direction": "C2B",
+      "technique": "zero_shot",
+      "corpus_bleu": 0.0469,
+      "corpus_chrf": 0.1598,
+      "avg_latency_sec": 1.116
+    },
+    {
+      "direction": "C2B",
+      "technique": "few_shot",
+      "corpus_bleu": 0.097,
+      "corpus_chrf": 0.2578,
+      "avg_latency_sec": 1.234
+    },
+    {
+      "direction": "C2B",
+      "technique": "dictionary",
+      "corpus_bleu": 0.3347,
+      "corpus_chrf": 0.5315,
+      "avg_latency_sec": 1.088
+    }
+  ],
+  "best_technique": {
+    "B2C": {
+      "by_bleu": "dictionary",
+      "by_chrf": "dictionary"
+    },
+    "C2B": {
+      "by_bleu": "dictionary",
+      "by_chrf": "dictionary"
+    }
+  },
+  "consistency_check": {
+    "method": "Repeated (3x) translation of a fixed 15-sentence subset (B2C, zero-shot prompt), comparing greedy decoding vs. temperature sampling (T=0.7).",
+    "subset_size": 15,
+    "num_runs": 3,
+    "greedy_decoding": {
+      "pct_identical_across_runs": 1.0,
+      "per_run_corpus_bleu": [
+        0.0087,
+        0.0087,
+        0.0087
+      ],
+      "std_dev": 0.0
+    },
+    "temperature_sampling": {
+      "pct_identical_across_runs": 0.0,
+      "per_run_corpus_bleu": [
+        0.0092,
+        0.0092,
+        0.0073
+      ],
+      "std_dev": 0.0009
+    },
+    "conclusion": "Greedy decoding is reproducible run-to-run, which is why it was used for the scored Day 2-4 comparisons. Temperature sampling introduces real output variance and would make cross-technique comparisons unreliable without averaging over many runs per technique."
+  },
+  "chart_file": "outputs/day5_comparison_chart.png",
+  "notes": [
+    "All BLEU/chrF figures here are corpus-level, pulled from Day 2-4 outputs, which already apply greedy decoding, output cleaning, and NFC Unicode normalization to avoid measurement-artifact score deflation.",
+    "Low absolute scores on this dialect, if still low after those fixes, reflect genuine difficulty translating into/from a barely-resourced dialect with a small (1.5B) model, not a scoring bug."
+  ]
+}

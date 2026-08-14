@@ -1,0 +1,43 @@
+{
+  "team": "LLM Team",
+  "assignment": "Zero-Shot vs Few-Shot Prompting: Standard Bangla <-> Chittagonian (Chatgaiya)",
+  "generated_by": "yourname",
+  "generated_at_utc": "2026-08-13T17:54:07.402433+00:00",
+  "dataset": {
+    "name": "ChatgaiyyaAlap",
+    "source_url": "https://data.mendeley.com/datasets/wtms9xbkkw/1",
+    "description": "Parallel corpus of Standard Bangla and Chittagonian (Chatgaiya) dialect sentence pairs, collected from YouTube/Facebook posts, comments, videos, short films, and dramas, plus a word-level dictionary file.",
+    "total_sentence_pairs": 4009,
+    "total_dictionary_entries": 1532,
+    "directions_covered": [
+      "bangla_to_chatgaiya",
+      "chatgaiya_to_bangla"
+    ]
+  },
+  "week1_sample": {
+    "seed": 42,
+    "test_sample_size": 60,
+    "fewshot_pool_size": 8,
+    "example_test_pair": {
+      "bangla": "সব সময় এমন জুতা দিয়ে মাইর খায়",
+      "chatgaiya": "অক্কল সমত এন জুতা দি মাইর হায়"
+    }
+  },
+  "day1_smoke_test": {
+    "model_used": "Qwen/Qwen2.5-1.5B-Instruct",
+    "b2c_example": {
+      "input": "সব সময় এমন জুতা দিয়ে মাইর খায়",
+      "output": "সব সময় আমি তোলা বাল্ডা করছি",
+      "reference": "অক্কল সমত এন জুতা দি মাইর হায়"
+    },
+    "c2b_example": {
+      "input": "অক্কল সমত এন জুতা দি মাইর হায়",
+      "output": "অক্কল সমতেন জুতা দিল মাইর হয়",
+      "reference": "সব সময় এমন জুতা দিয়ে মাইর খায়"
+    }
+  },
+  "notes": [
+    "Chatgaiya has no standard written form, so spelling variation across the dataset is expected and not necessarily an error.",
+    "Both translation directions must be evaluated separately, not combined."
+  ]
+}
