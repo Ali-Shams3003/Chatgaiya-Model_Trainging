@@ -3,7 +3,7 @@
 **Standard Bangla ↔ Chittagonian (Chatgaiya) dialect translation**, evaluated across
 three prompting strategies on an open-source LLM.
 
-## TL;DR
+
 
 Dictionary-augmented prompting wins clearly in both directions — roughly **9x**
 zero-shot's BLEU on Bangla→Chatgaiya and **7x** on Chatgaiya→Bangla. Few-shot gives a
