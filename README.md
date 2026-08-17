@@ -8,7 +8,7 @@ three prompting strategies on an open-source LLM.
 Dictionary-augmented prompting wins clearly in both directions — roughly **9x**
 zero-shot's BLEU on Bangla→Chatgaiya and **7x** on Chatgaiya→Bangla. Few-shot gives a
 modest bump over zero-shot but nowhere near what explicit word-level grounding
-provides. Full numbers and reasoning in [`outputs/day6_comparison.json`](outputs/day6_comparison.json).
+provides. 
 
 | Direction | Technique | Corpus BLEU | Corpus chrF |
 |---|---|---|---|
