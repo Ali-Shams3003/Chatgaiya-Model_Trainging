@@ -1,0 +1,92 @@
+{
+  "dataset": "ChatgaiyyaAlap",
+  "assignment": "Zero-Shot vs Few-Shot vs Dictionary-Augmented Prompting: Standard Bangla <-> Chittagonian (Chatgaiya)",
+  "sample_size": 60,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "final_comparison_table": [
+    {
+      "direction": "B2C",
+      "technique": "zero_shot",
+      "corpus_bleu": 0.0415,
+      "corpus_chrf": 0.1389,
+      "avg_latency_sec": 1.535
+    },
+    {
+      "direction": "B2C",
+      "technique": "few_shot",
+      "corpus_bleu": 0.0646,
+      "corpus_chrf": 0.2205,
+      "avg_latency_sec": 1.308
+    },
+    {
+      "direction": "B2C",
+      "technique": "dictionary",
+      "corpus_bleu": 0.3781,
+      "corpus_chrf": 0.6096,
+      "avg_latency_sec": 1.324
+    },
+    {
+      "direction": "C2B",
+      "technique": "zero_shot",
+      "corpus_bleu": 0.0469,
+      "corpus_chrf": 0.1598,
+      "avg_latency_sec": 1.116
+    },
+    {
+      "direction": "C2B",
+      "technique": "few_shot",
+      "corpus_bleu": 0.097,
+      "corpus_chrf": 0.2578,
+      "avg_latency_sec": 1.234
+    },
+    {
+      "direction": "C2B",
+      "technique": "dictionary",
+      "corpus_bleu": 0.3347,
+      "corpus_chrf": 0.5315,
+      "avg_latency_sec": 1.088
+    }
+  ],
+  "best_technique_per_metric": {
+    "B2C": {
+      "by_bleu": "dictionary",
+      "by_chrf": "dictionary"
+    },
+    "C2B": {
+      "by_bleu": "dictionary",
+      "by_chrf": "dictionary"
+    }
+  },
+  "performance_multipliers_vs_zero_shot": {
+    "B2C": {
+      "few_shot": {
+        "bleu_multiplier_vs_zero_shot": 1.56,
+        "chrf_multiplier_vs_zero_shot": 1.59
+      },
+      "dictionary": {
+        "bleu_multiplier_vs_zero_shot": 9.11,
+        "chrf_multiplier_vs_zero_shot": 4.39
+      }
+    },
+    "C2B": {
+      "few_shot": {
+        "bleu_multiplier_vs_zero_shot": 2.07,
+        "chrf_multiplier_vs_zero_shot": 1.61
+      },
+      "dictionary": {
+        "bleu_multiplier_vs_zero_shot": 7.14,
+        "chrf_multiplier_vs_zero_shot": 3.33
+      }
+    }
+  },
+ 
+  "chart_file": "day5_comparison_chart.png",
+  "source_files": [
+    "day2_zeroshot_b2c.json",
+    "day2_zeroshot_c2b.json",
+    "day3_fewshot_b2c.json",
+    "day3_fewshot_c2b.json",
+    "day4_dictionary_variant.json",
+    "day5_eval.json"
+  ]
+}
